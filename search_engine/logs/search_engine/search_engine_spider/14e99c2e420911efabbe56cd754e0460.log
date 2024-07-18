@@ -1,0 +1,75 @@
+2024-07-14 23:32:07 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: search_engine)
+2024-07-14 23:32:07 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.12.6, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.3.0, Python 3.10.0 (default, Apr  3 2024, 22:32:37) [Clang 15.0.0 (clang-1500.3.9.4)], pyOpenSSL 24.1.0 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform macOS-14.5-arm64-arm-64bit
+2024-07-14 23:32:07 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-07-14 23:32:07 [scrapy.extensions.telnet] INFO: Telnet Password: c013b4dea3cbd673
+2024-07-14 23:32:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-07-14 23:32:07 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'search_engine',
+ 'LOG_FILE': 'logs/search_engine/search_engine_spider/14e99c2e420911efabbe56cd754e0460.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'search_engine.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['search_engine.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-07-14 23:32:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-07-14 23:32:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-07-14 23:32:07 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-07-14 23:32:07 [scrapy.core.engine] INFO: Spider opened
+2024-07-14 23:32:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-07-14 23:32:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-07-14 23:32:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-07-14 23:32:15 [scrapy.extensions.feedexport] INFO: Stored json feed (39 items) in: research_output.json
+2024-07-14 23:32:15 [scrapy.extensions.feedexport] INFO: Stored csv feed (39 items) in: csv
+2024-07-14 23:32:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23218,
+ 'downloader/request_count': 41,
+ 'downloader/request_method_count/GET': 41,
+ 'downloader/response_bytes': 501786,
+ 'downloader/response_count': 41,
+ 'downloader/response_status_count/200': 41,
+ 'elapsed_time_seconds': 8.072028,
+ 'feedexport/success_count/FileFeedStorage': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 7, 14, 17, 47, 15, 208351, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2607215,
+ 'httpcompression/response_count': 41,
+ 'item_scraped_count': 39,
+ 'log_count/INFO': 12,
+ 'memusage/max': 68141056,
+ 'memusage/startup': 68141056,
+ 'request_depth_max': 1,
+ 'response_received_count': 41,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 40,
+ 'scheduler/dequeued/memory': 40,
+ 'scheduler/enqueued': 40,
+ 'scheduler/enqueued/memory': 40,
+ 'start_time': datetime.datetime(2024, 7, 14, 17, 47, 7, 136323, tzinfo=datetime.timezone.utc)}
+2024-07-14 23:32:15 [scrapy.core.engine] INFO: Spider closed (finished)

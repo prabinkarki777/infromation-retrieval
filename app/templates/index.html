@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="{{ url_for('static', filename='images/logo.svg') }}" alt="Google Scholar Logo">
+      </div>
+      <form class="search-form" action="{{ url_for('bp.search')}}" method="GET">
+        <input type="text" name="query" placeholder="Search" class="search-input">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </div>
+    <div class="content">
+      <!-- Your content here -->
+      <p>Welcome to the Coventry University's School of Computing, Mathematics and Data
+        Sciences Research Publications Search Engine</p>
+    </div>
+    <div class="footer">
+      <p>&copy; 2024 Coventry University. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+
+</html>

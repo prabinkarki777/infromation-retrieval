@@ -1,0 +1,919 @@
+[
+{
+    "title": "Deep Learning Based Forecasting of COVID-19 Hospitalisation in England: A Comparative Analysis",
+    "authors": [
+        {
+            "name": "Michael Ajao-olarinoye",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/michael-ajao-olarinoye"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Fei He",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/fei-he"
+        },
+        {
+            "name": "Petra A Wark",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/petra-wark"
+        },
+        {
+            "name": "Seyed Mousavi"
+        }
+    ],
+    "publication_year": "19 Mar 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/deep-learning-based-forecasting-of-covid-19-hospitalisation-in-en"
+},
+{
+    "title": "Developing Graph Convolutional Networks and Mutual Information for Arrhythmic Diagnosis Based on Multichannel ECG Signals",
+    "authors": [
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Bahare Andayeshgar"
+        },
+        {
+            "name": "Fardin Abdali-Mohammadi"
+        },
+        {
+            "name": "Majid Sepahvand"
+        },
+        {
+            "name": "Afshin Almasi"
+        },
+        {
+            "name": "Nader Salari"
+        }
+    ],
+    "publication_year": "28 Aug 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/developing-graph-convolutional-networks-and-mutual-information-fo"
+},
+{
+    "title": "Quality-Gauranteed Traditionally-sensed Areas Selection in Compressive Population Health",
+    "authors": [
+        {
+            "name": "Long Chen",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/long-chen"
+        }
+    ],
+    "publication_year": "2021",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/quality-gauranteed-traditionally-sensed-areas-selection-in-compre"
+},
+{
+    "title": "Predicting Primary Sequence-Based Protein-Protein Interactions Using a Mercer Series Representation of Nonlinear Support Vector Machine",
+    "authors": [
+        {
+            "name": "Omid Chatrabgoun",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/omid-chatrabgoun"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Mohsen Esmaeilbeigi"
+        },
+        {
+            "name": "Nader Sohrabi Safa"
+        },
+        {
+            "name": "Ali H. Alenezi"
+        },
+        {
+            "name": "Arafatur Rahman"
+        }
+    ],
+    "publication_year": "1 Dec 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/predicting-primary-sequence-based-protein-protein-interactions-us"
+},
+{
+    "title": "Using Physics-informed Neural Networks to Model the Hydro-morphodynamics of Mangrove Environments",
+    "authors": [
+        {
+            "name": "Majdi Fanous",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/majdi-fanous"
+        },
+        {
+            "name": "Jonathan Eden",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/jonathan-eden"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        }
+    ],
+    "publication_year": "9 Dec 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/using-physics-informed-neural-networks-to-model-the-hydro-morphod"
+},
+{
+    "title": "Institutional Data Analysis and Machine Learning Prediction of Student Performance",
+    "authors": [
+        {
+            "name": "Rachid Anane",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/rachid-anane"
+        },
+        {
+            "name": "Rahanatu Suleiman"
+        }
+    ],
+    "publication_year": "20 May 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/institutional-data-analysis-and-machine-learning-prediction-of-st"
+},
+{
+    "title": "Transfer Learning based Classification of Diabetic Retinopathy on the Kaggle EyePACS dataset",
+    "authors": [
+        {
+            "name": "Maria Tariq",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/maria-tariq"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "YingLiang Ma"
+        }
+    ],
+    "publication_year": "15 Nov 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/transfer-learning-based-classification-of-diabetic-retinopathy-on"
+},
+{
+    "title": "Social Explainability of AI: The Impact of Non-Technical Explanations on Trust",
+    "authors": [
+        {
+            "name": "Bianca Slocombe",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/bianca-slocombe"
+        },
+        {
+            "name": "Beate Grawemeyer",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/beate-grawemeyer"
+        },
+        {
+            "name": "Frens Kroeger"
+        },
+        {
+            "name": "Isa Inuwa-Dutse"
+        },
+        {
+            "name": "Baker Kagimu"
+        },
+        {
+            "name": "Umang Bhatt"
+        }
+    ],
+    "publication_year": "23 Jul 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/social-explainability-of-ai-the-impact-of-non-technical-explanati"
+},
+{
+    "title": "Stakeholders’ impact on the reuse potential of structural elements at the end-of-life of a building: A machine learning approach",
+    "authors": [
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Kambiz Rakhshan"
+        },
+        {
+            "name": "Jean-Claude Morel"
+        }
+    ],
+    "publication_year": "1 Jul 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/stakeholders-impact-on-the-reuse-potential-of-structural-elements"
+},
+{
+    "title": "Gaussian Process Emulation of Spatio-temporal Outputs of a 2D Inland Flood Model",
+    "authors": [
+        {
+            "name": "James Donnelly",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/james-donnelly"
+        },
+        {
+            "name": "Omid Chatrabgoun",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/omid-chatrabgoun"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Soroush Abolfathi"
+        },
+        {
+            "name": "Jonathan Pearson"
+        }
+    ],
+    "publication_year": "15 Oct 2022",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/gaussian-process-emulation-of-spatio-temporal-outputs-of-a-2d-inl"
+},
+{
+    "title": "Physics Informed Neural Networks To Model The Hydro-Morphodynamics Of Mangrove Environments",
+    "authors": [
+        {
+            "name": "Majdi Fanous",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/majdi-fanous"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Jonathan Eden",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/jonathan-eden"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Juntao Yang"
+        },
+        {
+            "name": "Simon See"
+        }
+    ],
+    "publication_year": "Oct 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/physics-informed-neural-networks-to-model-the-hydro-morphodynamic"
+},
+{
+    "title": "Parameters influencing pedestrian injury and severity: A systematic review and meta-analysis",
+    "authors": [
+        {
+            "name": "Vadhiraj Shrinivas",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vadhiraj-shrinivas"
+        },
+        {
+            "name": "Christophe Bastien",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/christophe-bastien"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Huw Davies",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/huw-davies"
+        },
+        {
+            "name": "Joseph Hardwicke"
+        }
+    ],
+    "publication_year": "Mar 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/parameters-influencing-pedestrian-injury-and-severity-a-systemati"
+},
+{
+    "title": "Indonesian 2013 Curriculum Ten Years On: Impact on Mathematics Teaching",
+    "authors": [
+        {
+            "name": "Duncan Lawson",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/duncan-lawson"
+        },
+        {
+            "name": "Rosida Rakhmawati Muhammad",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/rosida-rakhmawati-muhammad"
+        },
+        {
+            "name": "Farzana Aslam",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/farzana-aslam"
+        },
+        {
+            "name": "Megan Crawford",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/megan-crawford"
+        }
+    ],
+    "publication_year": "15 Jun 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/indonesian-2013-curriculum-ten-years-on-impact-on-mathematics-tea"
+},
+{
+    "title": "Modeling intrinsic factors of inclusive engagement in Citizen Science: Insights from the participants’ survey analysis of CSI-COP",
+    "authors": [
+        {
+            "name": "Huma Shah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/huma-shah"
+        },
+        {
+            "name": "Jaimz Winter",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/jaimz-stuart-winter"
+        },
+        {
+            "name": "Shlomit Hadad"
+        },
+        {
+            "name": "Maayan Zhitomirsky-geffet"
+        },
+        {
+            "name": "Dorottya Rigler"
+        },
+        {
+            "name": "Ulrico Celentano"
+        },
+        {
+            "name": "Henna Tiensuu"
+        },
+        {
+            "name": "Juha Röning"
+        },
+        {
+            "name": "Jordi Vallverdú"
+        },
+        {
+            "name": "Eva Jove Casabella"
+        },
+        {
+            "name": "Olga Stepankova"
+        },
+        {
+            "name": "Yannis Gialelis"
+        },
+        {
+            "name": "Konstantina Lantavou"
+        },
+        {
+            "name": "Tiberius Ignat"
+        },
+        {
+            "name": "Giacomo Demetrio Masone"
+        },
+        {
+            "name": "Marica Dumitrasco"
+        }
+    ],
+    "publication_year": "28 Nov 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/modeling-intrinsic-factors-of-inclusive-engagement-in-citizen-sci"
+},
+{
+    "title": "Exploiting flat subspaces in local search for p-Center problem and two fault-tolerant variants",
+    "authors": [
+        {
+            "name": "Seyed R. Mousavi"
+        }
+    ],
+    "publication_year": "Jan 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/exploiting-flat-subspaces-in-local-search-for-p-center-problem-an"
+},
+{
+    "title": "Human-in-the-loop machine learning with applications for population health",
+    "authors": [
+        {
+            "name": "Long Chen",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/long-chen"
+        },
+        {
+            "name": "Jiangtao Wang"
+        },
+        {
+            "name": "Bin Guo"
+        },
+        {
+            "name": "Liming Chen"
+        }
+    ],
+    "publication_year": "Mar 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/human-in-the-loop-machine-learning-with-applications-for-populati"
+},
+{
+    "title": "Hydro-morphodynamic modelling of mangroves imposed by tidal waves using finite element discontinuous Galerkin method",
+    "authors": [
+        {
+            "name": "Majdi Fanous",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/majdi-fanous"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Jonathan M. Eden",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/jonathan-eden"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Renji Remesan"
+        }
+    ],
+    "publication_year": "28 Mar 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/hydro-morphodynamic-modelling-of-mangroves-imposed-by-tidal-waves"
+},
+{
+    "title": "Efficacy of the 4F Feedback Model: A Game-Based Assessment in University Education",
+    "authors": [
+        {
+            "name": "Petros Lameras",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/petros-lameras"
+        },
+        {
+            "name": "Ian Dunwell",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/ian-dunwell"
+        },
+        {
+            "name": "Sylvester Arnab",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/sylvester-arnab"
+        },
+        {
+            "name": "Sara de Freitas"
+        },
+        {
+            "name": "Victoria Uren"
+        },
+        {
+            "name": "Kristian Kiili"
+        },
+        {
+            "name": "Manuel Ninaus"
+        },
+        {
+            "name": "Panagiotis Petridis"
+        },
+        {
+            "name": "Stephen Jarvis"
+        },
+        {
+            "name": "Kam Star"
+        }
+    ],
+    "publication_year": "6 Feb 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/efficacy-of-the-4f-feedback-model-a-game-based-assessment-in-univ"
+},
+{
+    "title": "Editorial: Women in language and computation 2022",
+    "authors": [
+        {
+            "name": "Huma Shah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/huma-shah"
+        },
+        {
+            "name": "Róisín Loughran"
+        },
+        {
+            "name": "Johanna Monti"
+        },
+        {
+            "name": "Maayan Zhitomirsky-Geffet"
+        }
+    ],
+    "publication_year": "17 Oct 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/editorial-women-in-language-and-computation-2022"
+},
+{
+    "title": "Effective Natural Language Processing Algorithms for Gout Flare Early Alert from Chief Complaints",
+    "authors": [
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Lucas Lopes Oliveira"
+        },
+        {
+            "name": "Aryalakshmi Nellippillipathil Babu"
+        },
+        {
+            "name": "Xiaorui Jiang"
+        },
+        {
+            "name": "Poonam Karajagi"
+        }
+    ],
+    "publication_year": "Nov 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/effective-natural-language-processing-algorithms-for-gout-flare-e"
+},
+{
+    "title": "Diabetic Retinopathy Detection Using Transfer and Reinforcement Learning with Effective Image Preprocessing and Data Augmentation Techniques",
+    "authors": [
+        {
+            "name": "Maria Tariq",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/maria-tariq"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "YingLiang Ma"
+        },
+        {
+            "name": "Abdulrahman Altahhan"
+        }
+    ],
+    "publication_year": "7 Feb 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/diabetic-retinopathy-detection-using-transfer-and-reinforcement-l"
+},
+{
+    "title": "Deep Learning Techniques for Radar-Based Continuous Human Activity Recognition",
+    "authors": [
+        {
+            "name": "Ruchita Mehta",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/ruchita-mehta"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Sara Sharifzadeh"
+        },
+        {
+            "name": "Bo Tan"
+        },
+        {
+            "name": "Yordanka Karayaneva"
+        }
+    ],
+    "publication_year": "14 Oct 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/deep-learning-techniques-for-radar-based-continuous-human-activit"
+},
+{
+    "title": "Data-Driven Design for Anomaly Detection in Network Access Control Systems",
+    "authors": [
+        {
+            "name": "Kabiru Mohammed",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/kabiru-mohammed"
+        },
+        {
+            "name": "Musa Abubakar Muhammad"
+        },
+        {
+            "name": "Fabio Caraffini"
+        },
+        {
+            "name": "Adebamigbe Fasanmade"
+        },
+        {
+            "name": "Olabayo Ishola"
+        },
+        {
+            "name": "Jarrad Morden"
+        }
+    ],
+    "publication_year": "15 Mar 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/data-driven-design-for-anomaly-detection-in-network-access-contro"
+},
+{
+    "title": "Core manufacturing ontology to model manufacturing operations and sequencing knowledge",
+    "authors": [
+        {
+            "name": "Nazaraf Shah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/nazaraf-shah"
+        },
+        {
+            "name": "Sattam Saha"
+        },
+        {
+            "name": "W.D. Li"
+        },
+        {
+            "name": "Z. Usman"
+        }
+    ],
+    "publication_year": "Mar 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/core-manufacturing-ontology-to-model-manufacturing-operations-and"
+},
+{
+    "title": "Correlation distances in social networks",
+    "authors": [
+        {
+            "name": "Thierry Platini",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/thierry-platini"
+        },
+        {
+            "name": "Pádraig MacCarron"
+        },
+        {
+            "name": "Shane Mannion"
+        }
+    ],
+    "publication_year": "14 Jun 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/correlation-distances-in-social-networks"
+},
+{
+    "title": "Causal Analysis of Influence of the Solar Cycle and Latitudinal Solar-Wind Structure on Co-Rotation Forecasts",
+    "authors": [
+        {
+            "name": "Nachiketa Chakraborty",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/nachiketa-chakraborty"
+        },
+        {
+            "name": "Harriet Turner"
+        },
+        {
+            "name": "Mathew Owens"
+        },
+        {
+            "name": "Matthew  Lang"
+        }
+    ],
+    "publication_year": "13 Dec 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/causal-analysis-of-influence-of-the-solar-cycle-and-latitudinal-s"
+},
+{
+    "title": "Beneath the bonnet of online privacy: Monitoring GDPR compliance through citizen science",
+    "authors": [
+        {
+            "name": "Huma Shah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/huma-shah"
+        },
+        {
+            "name": "Ian Marshall",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/ian-marshall"
+        }
+    ],
+    "publication_year": "Sept 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/beneath-the-bonnet-of-online-privacy-monitoring-gdpr-compliance-t"
+},
+{
+    "title": "Artificial Intelligence for skeleton-based physical rehabilitation action evaluation: A systematic review",
+    "authors": [
+        {
+            "name": "Sara Sardari",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/sara-sardari"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Michael Duncan",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/michael-duncan"
+        },
+        {
+            "name": "Sara Sharifzadeh"
+        },
+        {
+            "name": "Bahareh Nakisa"
+        },
+        {
+            "name": "Seng W. Loke"
+        }
+    ],
+    "publication_year": "May 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/artificial-intelligence-for-skeleton-based-physical-rehabilitatio"
+},
+{
+    "title": "An iterated greedy algorithm with variable reconstruction size for the obnoxious p-median problem",
+    "authors": [
+        {
+            "name": "Matthew England",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/matthew-england"
+        },
+        {
+            "name": "Seyed Mousavi"
+        },
+        {
+            "name": "Soni Bhambar"
+        }
+    ],
+    "publication_year": "3 Jul 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/an-iterated-greedy-algorithm-with-variable-reconstruction-size-fo"
+},
+{
+    "title": "A novel algorithm for classification using a low rank approximation of kernel-based support vector machines with applications",
+    "authors": [
+        {
+            "name": "O. Chatrabgoun",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/omid-chatrabgoun"
+        },
+        {
+            "name": "A. Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "M. Esmaeilbeigi"
+        },
+        {
+            "name": "A. Kamandi"
+        },
+        {
+            "name": "N. Salimi"
+        }
+    ],
+    "publication_year": "28 Jul 2023",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/a-novel-algorithm-for-classification-using-a-low-rank-approximati"
+},
+{
+    "title": "Uncertainty Quantification of Hydro-morphodynamic Models using Probabilistic Surrogate Models",
+    "authors": [
+        {
+            "name": "Majdi Fanous",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/majdi-fanous"
+        },
+        {
+            "name": "Omid Chatrabgoun",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/omid-chatrabgoun"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Mohsen Esmaeilbeigi"
+        },
+        {
+            "name": "Hamed Yazdani Nezhad"
+        }
+    ],
+    "publication_year": "2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/uncertainty-quantification-of-hydro-morphodynamic-models-using-pr"
+},
+{
+    "title": "Toward Population Health Intelligence: When Artificial Intelligence Meets Population Health Research",
+    "authors": [
+        {
+            "name": "Long Chen",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/long-chen"
+        },
+        {
+            "name": "Deborah Lycett",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/deborah-lycett"
+        },
+        {
+            "name": "Dingchang Zheng",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/dingchang-zheng-2"
+        },
+        {
+            "name": "Jiangtao Wang"
+        },
+        {
+            "name": "Duncan Vernon"
+        }
+    ],
+    "publication_year": "3 Jun 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/toward-population-health-intelligence-when-artificial-intelligenc"
+},
+{
+    "title": "Physics-informed neural networks as surrogate models of hydrodynamic simulators",
+    "authors": [
+        {
+            "name": "James Donnelly",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/james-donnelly"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Soroush Abolfathi"
+        }
+    ],
+    "publication_year": "20 Feb 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/physics-informed-neural-networks-as-surrogate-models-of-hydrodyna"
+},
+{
+    "title": "Machine Learning Approaches for Region-level Prescription Demand Forecasting",
+    "authors": [
+        {
+            "name": "Xu Wang",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/xu-wang"
+        },
+        {
+            "name": "Long Chen",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/long-chen"
+        },
+        {
+            "name": "Dingchang Zheng",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/dingchang-zheng-2"
+        },
+        {
+            "name": "Jiangtao Wang"
+        }
+    ],
+    "publication_year": "1 Mar 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/machine-learning-approaches-for-region-level-prescription-demand-"
+},
+{
+    "title": "Locally correct confidence intervals for a binomial proportion: A new criteria for an interval estimator",
+    "authors": [
+        {
+            "name": "Maha W. Moustafa",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/maha-moustafa"
+        },
+        {
+            "name": "Paul H. Garthwaite"
+        },
+        {
+            "name": "Fadlalla G. Elfadaly"
+        }
+    ],
+    "publication_year": "Mar 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/locally-correct-confidence-intervals-for-a-binomial-proportion-a-"
+},
+{
+    "title": "LightPRA: A Lightweight Temporal Convolutional Network for Automatic Physical Rehabilitation Exercise Assessment",
+    "authors": [
+        {
+            "name": "Sara Sardari",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/sara-sardari"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Vasile Palade",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vasile-palade"
+        },
+        {
+            "name": "Michael J Duncan",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/michael-duncan"
+        },
+        {
+            "name": "Sara Sharifzadeh"
+        },
+        {
+            "name": "Seng W Loke"
+        },
+        {
+            "name": "Bahareh Nakisa"
+        }
+    ],
+    "publication_year": "May 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/lightpra-a-lightweight-temporal-convolutional-network-for-automat"
+},
+{
+    "title": "Integrating Machine Learning in Pedestrian Forensics: A Comprehensive Tool for Analysing Pedestrian Collisions",
+    "authors": [
+        {
+            "name": "Vadhiraj Shrinivas",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/vadhiraj-shrinivas"
+        },
+        {
+            "name": "Christophe Bastien",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/christophe-bastien"
+        },
+        {
+            "name": "Huw Davies",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/huw-davies"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Joseph Hardwicke"
+        },
+        {
+            "name": "Clive Edward Neal-Sturgess"
+        }
+    ],
+    "publication_year": "6 Feb 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/integrating-machine-learning-in-pedestrian-forensics-a-comprehens"
+},
+{
+    "title": "Effective Natural Language Processing Algorithms for Early Alerts of Gout Flares from Chief Complaints",
+    "authors": [
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Lucas Lopes Oliveira"
+        },
+        {
+            "name": "Xiaorui Jiang"
+        },
+        {
+            "name": "Aryalakshmi Nellippillipathil Babu"
+        },
+        {
+            "name": "Poonam Karajagi"
+        }
+    ],
+    "publication_year": "10 Mar 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/effective-natural-language-processing-algorithms-for-early-alerts"
+},
+{
+    "title": "Forecasting global climate drivers using Gaussian processes and convolutional autoencoders",
+    "authors": [
+        {
+            "name": "James Donnelly",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/james-donnelly"
+        },
+        {
+            "name": "Alireza Daneshkhah",
+            "profile_link": "https://pureportal.coventry.ac.uk/en/persons/alireza-daneshkhah"
+        },
+        {
+            "name": "Soroush Abolfathi"
+        }
+    ],
+    "publication_year": "1 Feb 2024",
+    "publication_link": "https://pureportal.coventry.ac.uk/en/publications/forecasting-global-climate-drivers-using-gaussian-processes-and-c"
+}
+]

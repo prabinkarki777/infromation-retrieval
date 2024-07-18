@@ -1,0 +1,110 @@
+/* Custom CSS for your search results page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.logo img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 13px;
+}
+
+.search-button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.search-button:hover {
+  background-color: #357ae8;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result-item {
+  margin-bottom: 7px;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.result-item h3 {
+  margin-bottom: 2px;
+  font-size: 17px;
+}
+.result-item h3 a {
+  color: #1a0dab;
+}
+
+.result-item p {
+  display: inline-flex;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.result-item p a {
+  color: #006621;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-item .page-link {
+  color: #4285f4;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.pagination .page-item .page-link:hover {
+  color: #357ae8;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+.footer {
+  margin-top: 20px;
+}

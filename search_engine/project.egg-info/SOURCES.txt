@@ -1,0 +1,14 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+search_engine/__init__.py
+search_engine/items.py
+search_engine/middlewares.py
+search_engine/pipelines.py
+search_engine/settings.py
+search_engine/spiders/__init__.py
+search_engine/spiders/newsapi_spider.py
+search_engine/spiders/search_engine_spider.py
