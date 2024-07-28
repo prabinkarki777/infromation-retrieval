@@ -1,3 +1,23 @@
 {
-  "cSpell.words": ["clusterer", "dropna", "jsonify", "kmeans", "vectorizer"]
+  "cSpell.words": [
+    "clusterer",
+    "cmap",
+    "dropna",
+    "jsonify",
+    "kmeans",
+    "lemmatize",
+    "lemmatizer",
+    "Lemmatizer",
+    "ngram",
+    "punkt",
+    "stopwords",
+    "Tfidf",
+    "toarray",
+    "Vectorize",
+    "vectorizer",
+    "viridis",
+    "wordnet",
+    "xlabel",
+    "ylabel"
+  ]
 }

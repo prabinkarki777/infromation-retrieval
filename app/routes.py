@@ -44,6 +44,7 @@ def cluster_index():
 
 @bp.route('/cluster_result', methods=['POST'])
 def cluster_document():
+    print("sdf")
     data = request.form['document']
     result = clusterer.cluster_document(data)
     return result

@@ -98,11 +98,6 @@ FEEDS = {
         'overwrite': True,
         'store_empty': False,
     },
-    'csv': {
-        'format': 'csv',
-        'overwrite': True,
-        'store_empty': False,
-    },
 }
 
 # Enable logging
