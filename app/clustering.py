@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
+from sklearn.metrics import silhouette_score
 
 
 # Ensure Matplotlib is in non-GUI mode
@@ -25,12 +26,15 @@ class DocumentClustering:
     def __init__(self, file_path='search_engine/ny-times-news-data.csv'):
         self.file_path = file_path
         self.df = None
+
         self.vectorizer = TfidfVectorizer(
             stop_words='english',
-            ngram_range=(1, 2),
-            max_df=0.5,
-            min_df=2
+            ngram_range=(1, 3),
+            max_df=0.85,
+            min_df=5
         )
+        X = self.vectorizer.fit_transform(documents)
+
         self.kmeans = None
         self.stopwords = set(stopwords.words('english'))
         self.lemmatizer = WordNetLemmatizer()
@@ -78,12 +82,21 @@ class DocumentClustering:
         print(f"n_samples: {X.shape[0]}, n_features: {X.shape[1]}")
 
         # Cluster the documents
-        self.kmeans = KMeans(n_clusters=3, n_init=10, random_state=42)
+        self.kmeans = KMeans(n_clusters=3, n_init=20, random_state=42)
         self.kmeans.fit(X)
 
         # Get cluster labels and counts
         labels = self.kmeans.labels_
-        print(labels)
+
+        pca = PCA(n_components=2)
+        x_reduce = pca.fit_transform(X.toarray())
+        # kmeans.fit(x_reduce)
+        silhouette_avg1 = silhouette_score(x_reduce, labels)
+        print("Silhouette Score1:", silhouette_avg1)
+
+        # Get cluster labels and counts
+        # labels = self.kmeans.labels_
+        # print(labels)
         cluster_counts = pd.Series(labels).value_counts().sort_index()
         print("\nCluster Counts:")
         print(cluster_counts)
