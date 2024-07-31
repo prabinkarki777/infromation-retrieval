@@ -8,7 +8,6 @@ from nltk.tokenize import word_tokenize
 import csv
 import matplotlib.pyplot as plt
 import matplotlib
-from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
 from sklearn.metrics import silhouette_score
 
@@ -29,12 +28,10 @@ class DocumentClustering:
 
         self.vectorizer = TfidfVectorizer(
             stop_words='english',
-            ngram_range=(1, 3),
-            max_df=0.85,
-            min_df=5
+            ngram_range=(1, 2),
+            max_df=0.95,
+            min_df=3
         )
-        X = self.vectorizer.fit_transform(documents)
-
         self.kmeans = None
         self.stopwords = set(stopwords.words('english'))
         self.lemmatizer = WordNetLemmatizer()
@@ -82,7 +79,7 @@ class DocumentClustering:
         print(f"n_samples: {X.shape[0]}, n_features: {X.shape[1]}")
 
         # Cluster the documents
-        self.kmeans = KMeans(n_clusters=3, n_init=20, random_state=42)
+        self.kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
         self.kmeans.fit(X)
 
         # Get cluster labels and counts
@@ -90,19 +87,18 @@ class DocumentClustering:
 
         pca = PCA(n_components=2)
         x_reduce = pca.fit_transform(X.toarray())
-        # kmeans.fit(x_reduce)
-        silhouette_avg1 = silhouette_score(x_reduce, labels)
-        print("Silhouette Score1:", silhouette_avg1)
+        silhouette_Score = silhouette_score(x_reduce, labels)
+        print("Silhouette Score:", silhouette_Score)
 
         # Get cluster labels and counts
-        # labels = self.kmeans.labels_
-        # print(labels)
         cluster_counts = pd.Series(labels).value_counts().sort_index()
         print("\nCluster Counts:")
         print(cluster_counts)
 
         # Print top terms per cluster
         self.print_top_terms_per_cluster(X)
+        # self.plot_top_terms_per_cluster(X)
+        self.plot_clusters(X, labels, x_reduce)
 
     def print_top_terms_per_cluster(self, X, top_n=10):
         feature_names = self.vectorizer.get_feature_names_out()
@@ -113,6 +109,39 @@ class DocumentClustering:
                      for ind in centroid[:top_n] if ind < len(feature_names)]
             print(", ".join(terms))
             print()
+
+    def plot_top_terms_per_cluster(self, X, top_n=10):
+        feature_names = self.vectorizer.get_feature_names_out()
+        order_centroids = self.kmeans.cluster_centers_.argsort()[:, ::-1]
+
+        fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(18, 6))
+
+        for i, centroid in enumerate(order_centroids):
+            terms = [feature_names[ind]
+                     for ind in centroid[:top_n] if ind < len(feature_names)]
+            term_weights = [self.kmeans.cluster_centers_[i][ind]
+                            for ind in centroid[:top_n] if ind < len(feature_names)]
+
+            axes[i].barh(terms, term_weights, color='skyblue')
+            # Invert y-axis to display the highest weight on top
+            axes[i].invert_yaxis()
+            axes[i].set_xlabel('Weight')
+            axes[i].set_title(f'Top {top_n} Terms for Cluster {i}')
+
+        plt.tight_layout()
+        plt.savefig('clusters_top_terms.png')
+        plt.close()
+
+    def plot_clusters(self, X, labels, x_reduce):
+        plt.figure(figsize=(10, 8))
+        scatter = plt.scatter(
+            x_reduce[:, 0], x_reduce[:, 1], c=labels, cmap='viridis', alpha=0.5)
+        plt.colorbar(scatter)
+        plt.title('Document Clusters')
+        plt.xlabel('PCA Component 1')
+        plt.ylabel('PCA Component 2')
+        plt.savefig('document_clusters.png')
+        plt.close()
 
     def predict_cluster(self, new_document):
         if self.kmeans is None:
@@ -127,7 +156,8 @@ class DocumentClustering:
 
     def cluster_document(self, new_document):
         predicted_cluster = self.predict_cluster(new_document)
-        cluster_names = {0: "entertainment", 1: "economy", 2: "politics"}
+        cluster_names = {0: "entertainment", 1: "politics", 2: "economy"}
+
         if predicted_cluster is not None:
             cluster_name = cluster_names.get(predicted_cluster, 'unknown')
             response = {
